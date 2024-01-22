@@ -1,0 +1,14 @@
+.navbar{
+  position: fixed;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.navbar_logo{
+  width: 100px;
+  object-fit: contain;
+} 
+
+.nav_black{
+  background-color: #111;
+}

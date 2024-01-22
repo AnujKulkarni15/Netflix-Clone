@@ -1,0 +1,35 @@
+.row{
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.row_poster{
+  display: flex ;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_poster::-webkit-scrollbar{
+  /* It says to all browser to not to display scroll bar but continue with functionality */
+  display: none;
+}
+
+.image_row{
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.image_row:hover{
+  transform: scale(1.08);
+}
+
+.row_largeimg{
+  max-height: 250px;
+}
+.row_largeimg:hover{
+  transform: scale(1.09);
+}
