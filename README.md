@@ -1,4 +1,4 @@
-Click to open the site :- neflix-clone15.netlify.app
+Click to open the site :- https://neflix-clone15.netlify.app
 
 # Getting Started with Create React App
 
